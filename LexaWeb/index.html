@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lexa Ingeniería</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body style="width: 100%; height: 100vh; margin: 0">
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/LEXALOGOtra.png" width="180px" alt="Logo de lexa" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav" style="margin-left: auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                style="color: greenyellow; font-weight: bold"
+                aria-current="page"
+                href="index.html"
+                >Inicio<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item" class="nav-link">
+              <a class="nav-link" href="qSomos.html">Quiénes sómos</a>
+            </li>
+            <div class="dropdown">
+              <button class="dropbtn">Qué ofrecemos
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#sat">Internet satelital</a>
+                <a href="#qos">Medición Qos De Telefonía Celular</a>
+                <a href="#cctv">Video vigilancia</a>
+                <a href="#tacticos">Vehículos tácticos</a>
+              </div>
+            </div>
+            <li class="nav-item" class="nav-link">
+              <a class="nav-link" href="#foot">Contáctanos</a>
+            </li>
+            <div class="social-links-nav">
+              <a href="https://whatsApp.com" target="_blank"><img src="images/svg/whatsapp.svg" width="30px" height="30px"></a>
+              <a href="https://www.instagram.com/lexa_ing/" target="_blank"><img src="images/svg/instagram.svg" width="30px" height="30px"></a>
+              <a href="https://facebook.com/LEXA.Ingenieria" target="_blank"><img src="images/svg/facebook.svg" width="30px" height="30px"></a>
+          </div>
+          </ul>
+        </div>
+          <!-- <form class="form-inline my-2 my-lg-0 nav-item" style="display: flex">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn" type="submit">Buscar</button>
+        </form> -->
+          <!-- SOCIAL NETWOKS IN NAVBAR -->
+        
+          <!-- /SOCIAL NETWOKS IN NAVBAR -->
+      </div>
+    </nav>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <main id="main">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+        data-pause="false"
+      >
+        <div class="carousel-inner" style="height: 92vh">
+          <div class="carousel-item active">
+            <img src="images/hero1.png" class="d-block w-100" alt="..." />
+            <!-- <div class="carousel-caption d-none d-md-block">
+                      <h5 class="title-img">Ingeniería Informática</h5>
+                  </div>             -->
+          </div>
+          <div class="carousel-item">
+            <img src="images/hero2.png" class="d-block w-100" alt="..." />
+            <!-- <div class="carousel-caption d-none d-md-block">
+                      <h5 class="title-img">Ingeniería Eléctrica</h5>
+                  </div> -->
+          </div>
+          <div class="carousel-item">
+            <img src="images/lexateam.png" class="d-block w-100" alt="..." />
+            <!-- <div class="carousel-caption d-none d-md-block">
+                      <h5 class="title-img">Ingeniería Electrónica</h5>
+                  </div>             -->
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+    <!-- /MAIN -->
+
+    <!-- CARDS -->
+    <section class="ProductAndServices">
+      <h1 style="color: white; text-align: center; font-size: 13vh">Qué ofrecemos?</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img src="images/sat2.png" id="sat" height="85vh" />
+          </div>
+          <div class="col-sm">
+            <div class="text-container">
+              <h3 style="color: white">Internet satelital</h3>
+              <p style="color: white">
+                El internet satelital es recomendable en lugares donde no llegan
+                proveedores de internet tradicionales, tal como en zonas rurales
+                alejadas. Es ideal para quienes requieran una comunicación
+                segura y de alta disponibilidad, sin cortes. Con el internet
+                satelital como base, usted puede obtener otros ventajosos
+                servicios: VoIP (voz sobre IP), telefonía, video vigilancia,
+                radio UHF, entre varios. Véase comunicación rural.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <img src="images/keysight.png" id="qos" />
+          </div>
+          <div class="col-sm">
+            <div class="text-container">
+              <h3 style="color: white">Medición Qos De Telefonía Celular</h3>
+              <p style="color: white">
+                Somos representantes en Paraguay de Keysight Technologies, líder
+                mundial en equipos de medición de QoS (Quality of Service,
+                Calidad de Servicio) y benchamarking (pruebas comparativas) para
+                telefonía móvil. Tenemos capacidad de medir diversos parámetros
+                (voz, datos, conectividad, potencia de señal), en diferentes
+                protocolos y tecnologías vigentes (3G, 4G, etc.). De gran
+                utilidad para operadoras de telefonía e internet móvil,
+                fabricantes de celulares y equipos de conectividad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <img src="images/camara.png" id="cctv" />
+          </div>
+          <div class="col-sm">
+            <div class="text-container">
+              <h3 style="color: white">Video vigilancia</h3>
+              <p style="color: white">
+                Estos equipamientos son únicos en su tipo, pues muestran y
+                graban imágenes de muy alta resolución, con gran nivel de
+                detalle, aún en condiciones de mala iluminación o luz excesiva,
+                tanto en ambientes abiertos como cerrados. A diferencia de otros
+                productos de vigilancia, que en caso de un incidente exhiben una
+                imagen borrosa, con hikvision usted podrá ver rostros bien
+                definidos, números de chapas de vehículos, etc.
+                <!-- Texto de provision, Analizar el texto por riesgo de d. -->
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm" style="padding-top: 45px">
+            <img src="images/uro.png" id="tacticos" />
+          </div>
+          <div class="col-sm">
+            <div class="text-container">
+              <h3 style="color: white">Vehículos tácticos</h3>
+              <p style="color: white">
+                URO Vehículos Especiales S.A (UROVESA) es una empresa española que
+                se sitúa a nivel internacional como un referente en el diseño, fabricación
+                y servicio posventa de vehículos todoterreno y especiales. 
+                El desarrollo de una gama de vehículos polivalentes, de altas prestaciones,
+                robustos, fiables y creados a medida de las necesidades del cliente le ha
+                permitido estar presente hoy en día en más de una treintena de países de diferentes continentes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Partners">
+      <h1 style="font-size: 13vh; color: white; text-align: center">Partners</h1>
+      <div class="container">
+        <div class="row" style="margin: 50px 0">
+          <div class="col-sm"><img src="images/brands/logokeysight.png" style="width: 75vh;" alt=""></div>
+          <div class="col-sm"><img src="images/brands/telefonica.png" style="width: 75vh;" alt=""></div>
+        </div>
+        <div class="row" style="margin-bottom: 50px;">
+          <img src="images/brands/urovesa.png" style="width: 45vh; margin: auto" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="PrincipalClients">
+      <h1 style="font-size: 13vh; color: white; text-align: center;">Principales clientes</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm"><img src="images/brands/vox.png" style="width: 65vh;" alt=""></div>
+          <div class="col-sm"><img src="images/brands/consulargentino.png" style="width: 40vh" alt=""></div>
+          <div class="col-sm"><img src="images/brands/guarani.png" style="width: 40vh" alt=""></div>
+        </div>
+        <div class="row">
+          <div class="col-sm"><img src="images/brands/frigoconcepcion.png" alt=""></div>
+          <div class="col-sm"><img src="images/brands/frigochorti.png" alt=""></div>
+          <div class="col-sm"><img src="images/brands/frigochaco.png" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-center text-white" id="foot">
+      <div class="container">
+        <div class="row" style="padding: 15px;">
+          <div class="col-sm" style="display: flex; align-items: center">
+            <h6 class="text-footer" style="text-align: left">
+              Lexa Ingeniería 2022 ®
+            </h6>
+          </div>
+          <div class="col-sm" id="col-foot" style="text-align: left; display: flex; align-items: center">
+            <ul class="list-unstyled mb-0">
+              <li class="icon-list">
+                <img src="images/svg/telefono.svg" width="30px" height="30px" class="icons-foot">
+                <a href="tel:021-2381-014" class="text-white" style="text-decoration: none">021-2381-014</a>
+              </li>
+              <li class="icon-list">
+                  <img src="images/svg/whatsapp.svg" width="30px" height="30px" class="icons-foot">
+                  <a href="https://wa.me/595962332171" class="text-white" style="text-decoration: none">0962-332-171</a>
+                </a>
+              </li>
+              <li class="icon-list">
+                <img src="images/svg/mail.svg" width="30px" height="30px" class="icons-foot">
+                  <a href="mailto:info@lexaing.com" class="text-white" style="text-decoration: none">info@lexaing.com</a>
+              </li>
+              <li class="icon-list">
+                <img src="images/svg/ubicacion.svg" width="30px" height="30px" class="icons-foot">
+                <a href="M9MC+P9 Asunción" class="text-white" style="text-decoration: none"
+                    >Campo Via 2245 c/ Félix Bogado</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <div class="mapouter" style="display: flex; float: right">
+              <div class="gmap_canvas">
+                <iframe
+                  width="250"
+                  height="200"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=lexa%20ingenier%C3%ADa%20tecnica&t=&z=17&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe
+                ><a href="https://123movies-to.org">123 movies</a><br /><style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 200px;
+                    width: 250px;
+                  }</style
+                ><a href="https://www.embedgooglemap.net"></a
+                ><style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 200px;
+                    width: 250px;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >Lexa Ingeniería SRL</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- /FOOTER  -->
+    <!-- BOOTSTRAP -->
+    <script src="css/bootstrap.min.css"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

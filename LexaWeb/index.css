@@ -1,0 +1,84 @@
+body {background-color: black;}
+h3 {font-size: 32px; font-weight: bold; margin: auto;}
+p {font-size: 28px}
+ /* Navbar container */
+ .navbar {
+    background-color: rgb(49, 0, 174);
+    font-family: Arial;
+  }
+ .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+ .navbar .social-links-nav a {
+    padding: 0;
+    margin: 0 5px
+ }
+ .dropdown {
+    float: left;
+  }
+  
+ .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones*/
+  }
+ 
+ .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: inherit;
+    color: greenyellow
+  }
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(1, 1, 42, 0.899);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+ .dropdown-content a {
+    float: none;
+    color: white;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+ .dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.2);
+  }
+  
+ .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.nav-item {margin: 0 5px 0 5px;}
+.nav-link {color: white}
+.nav-link:hover {color: greenyellow; border-bottom: 1px solid greenyellow;}
+.dropdown-item {background-color: black; color: white}
+.dropdown-item:hover {background-color: black; color:greenyellow}
+.btn {margin-left: 5px; color: greenyellow; border-color: greenyellow;}
+.btn:hover {background-color: greenyellow; color: black;}
+#main .carousel-inner img {max-height: 92vh; object-fit: cover;}
+.title-img {font-size: 40px; font-weight: bold; color: rgb(0, 150, 150);}
+.ProductAndServices {margin-top: 15px; margin-bottom: 15px;}
+.col-sm img {height: auto}
+.text-container {padding: 10% 0;}
+.social-links-nav {margin: 10px;}
+#col-foot img {height: auto}
+.icon-list {margin: 10px 0;}
+/* .text-footer {display: flex; align-items: center; text-align: left;} */
+/* .footer-links-container {text-align: left; width: 500px;} */
