@@ -1,0 +1,45 @@
+.info {
+    background-color: black;
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .info h3 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: greenyellow;
+  }
+  
+  .info p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .firstInfo,
+  .secondInfo,
+  .thirdInfo,
+  .forthInfo {
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .info {
+      padding: 20px;
+    }
+    
+    .info h3 {
+      font-size: 1.8rem;
+    }
+    
+    .info p {
+      font-size: 1rem;
+    }
+  }
+  

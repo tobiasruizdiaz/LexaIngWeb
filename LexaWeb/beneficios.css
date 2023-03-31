@@ -1,0 +1,68 @@
+/* Estilos para la sección de artículo */
+.article {
+    background-color: black;
+    margin-bottom: 40px;
+    /* padding: 40px 0; */
+  }
+  
+  .text-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 2% 0;
+  }
+
+  .article-title {
+    color: greenyellow;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .article-text {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .article-benefits {
+    width: 50%;
+  }
+  .article-benefits-title {
+    color: greenyellow;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .article-benefits-list {
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .article-benefits-list li {
+    margin-bottom: 10px;
+  }
+  
+  .article-benefits-list li:before {
+    content: '\2022';
+    color: greenyellow;
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para las imágenes */
+  .article-image img {
+    display: block;
+    margin: 0 auto;
+    max-height: 300px;
+    width: auto;
+  }
+
+  

@@ -9,6 +9,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="qSomos.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -37,52 +38,37 @@
             <li class="nav-item">
               <a
                 class="nav-link active"
-                style="color: greenyellow; font-weight: bold"
+                
                 aria-current="page"
                 href="index.html"
                 >Inicio<span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item" class="nav-link">
-              <a class="nav-link" href="qSomos.html">Quiénes sómos</a>
+              <a class="nav-link active" style="color: greenyellow; font-weight: bold" href="qSomos.html">Quiénes sómos</a>
             </li>
             <div class="dropdown">
               <button class="dropbtn">Qué ofrecemos
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="#">Internet satelital</a>
-                <a href="#">Medición Qos De Telefonía Celular</a>
-                <a href="#">Video vigilancia</a>
-                <a href="#">Vehículos tácticos</a>
+                <a href="index.html#sat">Internet satelital</a>
+                <a href="index.html#qos">Medición Qos De Telefonía Celular</a>
+                <a href="index.html#cctv">Video vigilancia</a>
+                <a href="index.html#tacticos">Vehículos tácticos</a>
               </div>
             </div>
-            <!-- <li class="nav-item" class="dropdown">
-              <a
-                class="nav-link"
-                href="qOfrecemos.html"
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false">Qué ofrecemos</a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#sat">Internet satelital</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#qos">Medición Qos De Telefonía Celular</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#cctv">Video vigilancia</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#tacticos">Vehículos tácticos</a>
-                </li>
-              </ul>
-            </li> -->
+            <li class="nav-item" class="nav-link">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
             <li class="nav-item" class="nav-link">
               <a class="nav-link" href="#foot">Contáctanos</a>
             </li>
+            <div class="social-links-nav">
+              <a href="https://whatsApp.com" target="_blank"><img src="images/svg/whatsapp.svg" width="30px" height="30px"></a>
+              <a href="https://www.instagram.com/lexa_ing/" target="_blank"><img src="images/svg/instagram.svg" width="30px" height="30px"></a>
+              <a href="https://facebook.com/LEXA.Ingenieria" target="_blank"><img src="images/svg/facebook.svg" width="30px" height="30px"></a>
+          </div>
           </ul>
         </div>
           <!-- <form class="form-inline my-2 my-lg-0 nav-item" style="display: flex">
@@ -90,11 +76,7 @@
           <button class="btn" type="submit">Buscar</button>
         </form> -->
           <!-- SOCIAL NETWOKS IN NAVBAR -->
-        <div class="social-links-nav">
-            <img src="images/svg/whatsapp.svg" width="30px" height="30px">
-            <img src="images/svg/instagram.svg" width="30px" height="30px">
-            <img src="images/svg/facebook.svg" width="30px" height="30px">
-        </div>
+        
           <!-- /SOCIAL NETWOKS IN NAVBAR -->
       </div>
     </nav>
@@ -102,12 +84,12 @@
     <hr>
 
 <!-- MAIN -->
-<section class="main-title-container" style="height: 80vh;">
+<section class="main-title-container" style="height: 80vh; background-image: url(images/hero1.png); background-repeat: no-repeat; background-size: cover;">
     <div class="row" style="height: inherit">
         <div class="col-sm" style="color: white;"><h1 style="font-size: 13vh; line-height: 80vh; text-align: center;">Quiénes Sómos</h1></div>
     </div>
 </section>
-<section class="info" style="background-color: rgb(87, 87, 87);">
+<section class="info">
     <div class="container">
         <section class="firstInfo" style="margin: 15px auto">
             <div class="row" style="color: white">
@@ -177,7 +159,7 @@
     <!-- FOOTER -->
     <footer class="bg-dark text-center text-white" id="foot">
       <div class="container">
-        <div class="row">
+        <div class="row" style="padding: 15px;">
           <div class="col-sm" style="display: flex; align-items: center">
             <h6 class="text-footer" style="text-align: left">
               Lexa Ingeniería 2022 ®
@@ -187,26 +169,26 @@
             <ul class="list-unstyled mb-0">
               <li class="icon-list">
                 <img src="images/svg/telefono.svg" width="30px" height="30px" class="icons-foot">
-                <a href="#!" class="text-white" style="text-decoration: none">021-2381-014</a>
+                <a href="tel:021-2381-014" class="text-white" style="text-decoration: none">021-2381-014</a>
               </li>
               <li class="icon-list">
                   <img src="images/svg/whatsapp.svg" width="30px" height="30px" class="icons-foot">
-                  <a href="#!" class="text-white" style="text-decoration: none">0962-332-171</a>
+                  <a href="https://wa.me/595962332171" class="text-white" style="text-decoration: none">0962-332-171</a>
                 </a>
               </li>
               <li class="icon-list">
                 <img src="images/svg/mail.svg" width="30px" height="30px" class="icons-foot">
-                  <a href="#!" class="text-white" style="text-decoration: none">info@lexaing.com</a>
+                  <a href="mailto:info@lexaing.com" class="text-white" style="text-decoration: none">info@lexaing.com</a>
               </li>
               <li class="icon-list">
                 <img src="images/svg/ubicacion.svg" width="30px" height="30px" class="icons-foot">
-                <a href="#!" class="text-white" style="text-decoration: none"
+                <a href="https://www.google.com/maps/place/LEXA+INGENIERIA/@-25.3157289,-57.6312906,17z/data=!3m1!4b1!4m6!3m5!1s0x945da9083d63e3a7:0xda23c1bbdec5513c!8m2!3d-25.3157338!4d-57.6291019!16s%2Fg%2F11rfr4mjny" class="text-white" style="text-decoration: none"
                     >Campo Via 2245 c/ Félix Bogado</a>
               </li>
             </ul>
           </div>
           <div class="col-sm">
-            <div class="mapouter">
+            <div class="mapouter" style="display: flex; float: right">
               <div class="gmap_canvas">
                 <iframe
                   width="250"
