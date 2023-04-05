@@ -13,6 +13,22 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <style>
+      h1 {
+        background: linear-gradient(to right, blue, greenyellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-size: 13vh;
+      }
+      
+      @media screen and (max-width: 768px) {
+        h1 {
+          font-size: 8vh;
+        }
+      }
+      </style>
+      
   </head>
   <body style="width: 100%; height: 100vh; margin: 0">
     <!-- HEADER -->
@@ -136,7 +152,8 @@
     <!-- CARDS -->
     <section class="ProductAndServices">
       <!-- <h1 style="color: greenyellow; text-align: center; font-size: 13vh">Qué ofrecemos?</h1> -->
-      <h1 style="background: linear-gradient(to right, blue, greenyellow); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: center; font-size: 13vh;">Qué ofrecemos?</h1>
+      <h1>Qué ofrecemos?</h1>
+      <!-- <h1 style="background: linear-gradient(to right, blue, greenyellow); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-align: center; font-size: 13vh;">Qué ofrecemos?</h1> -->
       <div class="container">
         <div class="row">
           <div class="col-sm">
@@ -158,11 +175,11 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm">
-            <img src="images/keysight.png" id="qos" />
+          <div class="col-sm" style="padding: 10% 0">
+            <img src="images/keysight.png"/>
           </div>
-          <div class="col-sm">
-            <div class="text-container">
+          <div class="col-sm"  id="qos">
+            <div class="text-container" >
               <h3 style="color: white">Medición Qos De Telefonía Celular</h3>
               <p style="color: white">
                 Somos representantes en Paraguay de Keysight Technologies, líder
@@ -178,10 +195,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-sm">
-            <img src="images/segurInform.png" id="#segInfor" height="85vh" />
+          <div class="col-sm" style="padding: 10% 0">
+            <img src="images/segurInform.png" height="85vh" />
           </div>
-          <div class="col-sm">
+          <div class="col-sm" id="segInfor">
             <div class="text-container">
               <h3 style="color: white">Seguridad Informática</h3>
               <p style="color: white">
@@ -211,11 +228,25 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-sm" style="padding-top: 45px">
-            <img src="images/uro.png" id="tacticos" />
+        <!-- <div class="row">
+          <div class="col-sm">
+            <img src="images/frontierLexa.png" id="#soporte" height="85vh" />
           </div>
           <div class="col-sm">
+            <div class="text-container">
+              <h3 style="color: white">Soporte técnico</h3>
+              <p style="color: white">
+                En la Administración y mantenimiento de firewall se desarrollara un sistema de control de usuarios LAN, y especificaciones de reglas para los mismos con ciertos niveles de privilegio.
+                En el mantenimiento del servidor DHCP se podrá establecer una regla donde solamente las maquinas inventariadas, podrán acceder a la asignación automática de ip para evitar ingresos de terceros a la red local.
+              </p>
+            </div>
+          </div>
+        </div> -->
+        <div class="row">
+          <div class="col-sm" style="padding: 10% 0">
+            <img src="images/uro.png"/>
+          </div>
+          <div class="col-sm" id="tacticos" id="tacticos" >
             <div class="text-container">
               <h3 style="color: white">Vehículos tácticos</h3>
               <p style="color: white">
@@ -285,7 +316,7 @@
               </li>
               <li class="icon-list">
                 <img src="images/svg/ubicacion.svg" width="30px" height="30px" class="icons-foot">
-                <a href="M9MC+P9 Asunción" class="text-white" style="text-decoration: none"
+                <a href="https://www.google.com/maps/place/LEXA+INGENIERIA+TECNICA/@-25.315754,-57.628944,17z/data=!4m6!3m5!1s0x945da9dbac181e8f:0xd15a86242a81620f!8m2!3d-25.3157543!4d-57.6289439!16s%2Fg%2F11rjw2tq35?hl=es-ES" target="_blank" class="text-white" style="text-decoration: none"
                     >Campo Via 2245 c/ Félix Bogado</a>
               </li>
             </ul>
